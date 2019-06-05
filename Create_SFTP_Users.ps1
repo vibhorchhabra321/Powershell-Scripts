@@ -1,0 +1,1 @@
+New-ADUser -Path "OU=SFTP_Users,OU=Security Groups,DC=rms,DC=com" -Name $env:Name -GivenName $env:FirstName -SurName $env:SurName -Description $env:Desc -EmailAddress $env:Email -AccountPassword $env:Password -Enabled $true
